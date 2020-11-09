@@ -1,5 +1,7 @@
 Raine's personal eslint configuration
 
+https://eslint.org/docs/developer-guide/shareable-configs
+
 ## Install
 
 ```
