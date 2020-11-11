@@ -5,6 +5,15 @@ Raine's personal eslint configuration
 
 https://eslint.org/docs/developer-guide/shareable-configs
 
+#### Base config:
+- standard
+
+#### Plugins:
+<%= peerDependencies
+  .map(plugin => '- ' + plugin)
+  .join('\n')
+%>
+
 ## Install
 
 Install `eslint-config-raine` with eslint plugins:
