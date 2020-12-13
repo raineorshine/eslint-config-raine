@@ -28,6 +28,16 @@ npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-
 
 ## Usage
 
+#### package.json
+
+```json
+  "eslintConfig": {
+    "extends": [
+      "raine"
+    ]
+  }
+```
+
 #### .eslintrc.json
 
 ```json

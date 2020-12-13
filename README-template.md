@@ -24,6 +24,16 @@ npm install --save-dev eslint-config-raine <%=peerDependencies.join(' ')%>
 
 ## Usage
 
+#### package.json
+
+```json
+  "eslintConfig": {
+    "extends": [
+      "raine"
+    ]
+  }
+```
+
 #### .eslintrc.json
 
 ```json
