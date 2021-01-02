@@ -53,11 +53,6 @@ module.exports = {
         'allowTemplateLiterals': true
       }
     ],
-    'sort-imports': [2,
-      {
-        'ignoreDeclarationSort': true
-      }
-    ],
     'space-before-function-paren': 0,
     'yield-star-spacing': [2,
       {
