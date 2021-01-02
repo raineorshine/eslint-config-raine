@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-raine",
+  "version": "0.2.0",
   "description": "Raine's personal eslint configuration",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "version": "0.1.2",
   "author": {
     "name": "Raine Revere",
     "email": "raineorshine@gmail.com",
