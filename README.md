@@ -89,6 +89,13 @@ npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-
         "exports": "always-multiline"
       }
     ],
+    "generator-star-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
     "indent": [
       2,
       2,
@@ -123,6 +130,13 @@ npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-
       }
     ],
     "space-before-function-paren": 0,
+    "yield-star-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
     "fp/no-class": 2,
     "fp/no-delete": 2,
     "fp/no-events": 2,

@@ -26,6 +26,12 @@ module.exports = {
         'exports': 'always-multiline'
       }
     ],
+    'generator-star-spacing': [2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
     'indent': [2, 2,
       {
         'flatTernaryExpressions': true
@@ -53,6 +59,12 @@ module.exports = {
       }
     ],
     'space-before-function-paren': 0,
+    'yield-star-spacing': [2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
 
     // fp
     'fp/no-class': 2,
