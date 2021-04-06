@@ -34,6 +34,8 @@ npm install --save-dev eslint-config-raine <%=peerDependencies.join(' ')%>
   }
 ```
 
+or
+
 #### .eslintrc.json
 
 ```json
@@ -43,6 +45,8 @@ npm install --save-dev eslint-config-raine <%=peerDependencies.join(' ')%>
 ```
 
 ## Rules
+
+These rules will automatically be used when you extend the config as shown above:
 
 ```json
 <%= JSON.stringify(rules, null, 2) %>

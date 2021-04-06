@@ -37,6 +37,8 @@ npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-
   }
 ```
 
+or
+
 #### .eslintrc.json
 
 ```json
@@ -46,6 +48,8 @@ npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-
 ```
 
 ## Rules
+
+These rules will automatically be used when you extend the config as shown above:
 
 ```json
 {
