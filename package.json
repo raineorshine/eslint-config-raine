@@ -16,15 +16,15 @@
     "build": "node build.js"
   },
   "devDependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.21"
   },
   "peerDependencies": {
     "eslint": ">=7",
-    "eslint-config-standard": ">=16.0.1",
+    "eslint-config-standard": ">=16.0.2",
     "eslint-plugin-fp": ">=2.3.0",
     "eslint-plugin-import": ">=2.22.1",
-    "eslint-plugin-jsdoc": ">=30.7.7",
+    "eslint-plugin-jsdoc": ">=32.3.0",
     "eslint-plugin-node": ">=11.1.0",
-    "eslint-plugin-promise": ">=4.2.1"
+    "eslint-plugin-promise": ">=4.3.1"
   }
 }
