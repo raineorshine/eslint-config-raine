@@ -14,7 +14,7 @@ https://eslint.org/docs/developer-guide/shareable-configs
 - eslint-plugin-fp
 - eslint-plugin-import
 - eslint-plugin-jsdoc
-- eslint-plugin-node
+- eslint-plugin-n
 - eslint-plugin-promise
 
 ## Install
@@ -22,7 +22,7 @@ https://eslint.org/docs/developer-guide/shareable-configs
 Install `eslint-config-raine` with eslint plugins:
 
 ```
-npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-plugin-fp eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-node eslint-plugin-promise
+npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-plugin-fp eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-n eslint-plugin-promise
 ```
 
 ## Usage
@@ -148,7 +148,6 @@ These rules will automatically be used when you extend the config as shown above
     "jsdoc/check-tag-names": 2,
     "jsdoc/check-types": 2,
     "jsdoc/implements-on-classes": 2,
-    "jsdoc/newline-after-description": 2,
     "jsdoc/no-types": 2,
     "jsdoc/no-undefined-types": 2
   }

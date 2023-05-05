@@ -78,7 +78,6 @@ module.exports = {
     'jsdoc/check-tag-names': 2,
     'jsdoc/check-types': 2,
     'jsdoc/implements-on-classes': 2,
-    'jsdoc/newline-after-description': 2,
     'jsdoc/no-types': 2,
     'jsdoc/no-undefined-types': 2
   }
