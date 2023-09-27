@@ -8,10 +8,14 @@
   ],
   "author": {
     "name": "Raine Revere",
-    "email": "raineorshine@gmail.com",
+    "email": "raine.revere@pm.me",
     "url": "https://github.com/raineorshine"
   },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raineorshine/eslint-config-raine.git"
+  },
   "scripts": {
     "build": "node build.js"
   },
@@ -21,7 +25,6 @@
   "peerDependencies": {
     "eslint": ">=7",
     "eslint-config-standard": ">=16.0.2",
-    "eslint-plugin-fp": ">=2.3.0",
     "eslint-plugin-import": ">=2.22.1",
     "eslint-plugin-jsdoc": ">=32.3.0",
     "eslint-plugin-n": ">=11.1.0",

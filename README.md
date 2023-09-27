@@ -11,7 +11,6 @@ https://eslint.org/docs/developer-guide/shareable-configs
 #### Plugins:
 - eslint
 - eslint-config-standard
-- eslint-plugin-fp
 - eslint-plugin-import
 - eslint-plugin-jsdoc
 - eslint-plugin-n
@@ -22,7 +21,7 @@ https://eslint.org/docs/developer-guide/shareable-configs
 Install `eslint-config-raine` with eslint plugins:
 
 ```
-npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-plugin-fp eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-n eslint-plugin-promise
+npm install --save-dev eslint-config-raine eslint eslint-config-standard eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-n eslint-plugin-promise
 ```
 
 ## Usage
@@ -71,7 +70,6 @@ These rules will automatically be used when you extend the config as shown above
     "sourceType": "module"
   },
   "plugins": [
-    "fp",
     "jsdoc"
   ],
   "rules": {
@@ -134,14 +132,6 @@ These rules will automatically be used when you extend the config as shown above
         "after": true
       }
     ],
-    "fp/no-class": 2,
-    "fp/no-delete": 2,
-    "fp/no-events": 2,
-    "fp/no-get-set": 2,
-    "fp/no-loops": 2,
-    "fp/no-mutating-assign": 2,
-    "fp/no-mutating-methods": 2,
-    "fp/no-valueof-field": 2,
     "jsdoc/check-alignment": 2,
     "jsdoc/check-indentation": 2,
     "jsdoc/check-syntax": 2,

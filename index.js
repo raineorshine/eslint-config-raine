@@ -14,7 +14,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['fp', 'jsdoc'],
+  plugins: ['jsdoc'],
   rules: {
     'arrow-parens': [2, 'as-needed'],
     'brace-style': [2, 'stroustrup'],
@@ -60,16 +60,6 @@ module.exports = {
         "after": true
       }
     ],
-
-    // fp
-    'fp/no-class': 2,
-    'fp/no-delete': 2,
-    'fp/no-events': 2,
-    'fp/no-get-set': 2,
-    'fp/no-loops': 2,
-    'fp/no-mutating-assign': 2,
-    'fp/no-mutating-methods': 2,
-    'fp/no-valueof-field': 2,
 
     // jsdoc
     'jsdoc/check-alignment': 2,
